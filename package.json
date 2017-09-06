@@ -1,0 +1,23 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "\"# MEAN\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MongTienBui/MEAN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MongTienBui/MEAN/issues"
+  },
+  "homepage": "https://github.com/MongTienBui/MEAN#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10"
+  }
+}

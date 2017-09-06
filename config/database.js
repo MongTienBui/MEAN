@@ -1,0 +1,6 @@
+const crypto = require('crypto').randomBytes(256).toString('hex');
+module.exports = {
+	uri: 'mongodb://localhost:27017' + this.db, //27017 ở trên
+	secrect: crypto,
+	db: 'mean-01'
+}
